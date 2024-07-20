@@ -1,0 +1,51 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.team {
+    background-color:#f8f9fb;
+    color: #1f2328;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 50px 0;
+}
+.team > div{
+margin: 50px 0  ;}
+p {
+    color:#969a9b;
+}
+.first-P{
+font-style: italic;
+}
+.team-members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon {
+font-size: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #1f2328;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+color: white;
+}
+
+
+.last-p {
+    align-self: center;
+    width: 50%;
+}
